@@ -26,7 +26,7 @@ The charging manoeuver splits into several steps:
 
   * using OpenCV, the camera is able to recognize the circle and the computer controls the motors in order to align the plug with the charging port.
   
-          <img style="display: block;margin-left: auto;margin-right: auto;" src="https://github.com/vivipal/worm-charger/blob/main/figs/robot_view.png" width="500"/>
+  <img style="display: block;margin-left: auto;margin-right: auto;" src="https://github.com/vivipal/worm-charger/blob/main/figs/robot_view.png" width="500"/>
 
   * using inverted kinematic (roboticstoolbox), the computer generates a trajectory for the motors to go down vertically and plug it int. The end switch is there to confirm that contact had been made and charging has began.
 
