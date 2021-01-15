@@ -14,7 +14,7 @@ We used a modified WidowXL Robot Arm: the end part of the arm was replaced with 
 
 
 The DART was slightly modified with a top charging port, making it easier for the arm to plug. A circle was placed around the port to allow the camera to recognize it and guide it.
-</br>
+</br></br>
 <img src="https://github.com/vivipal/worm-charger/blob/main/figs/arm.jpg" width="300"/>
 <img src="https://github.com/vivipal/worm-charger/blob/main/figs/head_arm.jpg" width="300"/>
 <img src="https://github.com/vivipal/worm-charger/blob/main/figs/dart_top.jpg" width="300"/>
@@ -25,7 +25,9 @@ The charging manoeuver splits into several steps:
   * the arm is placed in a standard pose, camera facing down, on top of the DART.
 
   * using OpenCV, the camera is able to recognize the circle and the computer controls the motors in order to align the plug with the charging port.
-<img src="https://github.com/vivipal/worm-charger/blob/main/figs/robot_view.png" width="500"/>
+  
+          <img style="display: block;margin-left: auto;margin-right: auto;" src="https://github.com/vivipal/worm-charger/blob/main/figs/robot_view.png" width="500"/>
+
   * using inverted kinematic (roboticstoolbox), the computer generates a trajectory for the motors to go down vertically and plug it int. The end switch is there to confirm that contact had been made and charging has began.
 
   * Once charging is done, the robot arm will unplug itsef from the DART robot and go back to its standard pose.
