@@ -34,6 +34,7 @@ The charging manoeuver splits into several steps:
 
   * Once charging is done, the robot arm will unplug itsef from the DART robot and go back to its standard pose.
   
+  -----
   
   Here is the first two steps :
   
