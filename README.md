@@ -33,3 +33,8 @@ The charging manoeuver splits into several steps:
   * using inverted kinematic (roboticstoolbox), the computer generates a trajectory for the motors to go down vertically and plug it int. The end switch is there to confirm that contact had been made and charging has began.
 
   * Once charging is done, the robot arm will unplug itsef from the DART robot and go back to its standard pose.
+  
+  
+  Here is the first two steps :
+  
+  <img src="https://github.com/vivipal/worm-charger/blob/main/figs/robot_in_movement.gif"/> 
