@@ -15,9 +15,9 @@ We used a modified WidowXL Robot Arm: the end part of the arm was replaced with 
 
 The DART was slightly modified with a top charging port, making it easier for the arm to plug. A circle was placed around the port to allow the camera to recognize it and guide it.
 </br></br>
-<img src="https://github.com/vivipal/worm-charger/blob/main/figs/arm.jpg" width="30%"/>
-<img src="https://github.com/vivipal/worm-charger/blob/main/figs/head_arm.jpg" width="30%"/>
-<img src="https://github.com/vivipal/worm-charger/blob/main/figs/dart_top.jpg" width="30%"/>
+<img src="https://github.com/vivipal/worm-charger/blob/main/figs/arm.jpg" width="33%"/>
+<img src="https://github.com/vivipal/worm-charger/blob/main/figs/head_arm.jpg" width="33%"/>
+<img src="https://github.com/vivipal/worm-charger/blob/main/figs/dart_top.jpg" width="33%"/>
 
 
 The charging manoeuver splits into several steps:
